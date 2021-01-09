@@ -1,0 +1,52 @@
+print("Mini project ! \n\n")
+
+Declaring=[]
+Association=[]
+Dissociation=[]
+
+Device= ["SLB-01","SLB-02","SLB-03"]
+Firmware= ["FW-01","FW-02"]
+Patient= ["User-01","User-02","User-03"]
+
+print("Devices: ",Device ,"\nFirmware: " ,Firmware ,"\nPatient",Patient)
+print("\nVeuillez choisir le num de la fonctionnalité : \n ")
+print("1) Déclarer device avec Firmware. \n2) Associer device avec Patient. \n3) Dissocier device pour Patient. \n4) Mettre à jour firmware.\n5) exit ")
+
+while 1 :
+ 
+    val = input("Entrer le num: ") 
+
+    if val == "1" :
+        valDevice = input("Entrer le nom du DEVICE: ") 
+        valFirmware = input("Entrer le nom du Firmware : ")
+        if [valDevice,valFirmware] not in Declaring : 
+            Declaring.append([valDevice,valFirmware])
+            print("\n",[valDevice,valFirmware]," is successefuly declared !")
+        else :
+            print("\n",[valDevice,valFirmware]," is already  declared !")
+
+    if val == "2" :
+        valDevice = input("Entrer le nom du DEVICE : ") 
+        valPatient = input("Entrer le nom du Patient : ")
+        if [valDevice,valPatient] not in Association : 
+            Association.append([valDevice,valPatient])
+            print("\n",[valDevice,valFirmware]," is successefuly associated !")
+        else :
+            print([valDevice,valPatient]," is already  associated !")
+
+    if val == "3" :
+        valDevice = input("Enter the device name: ") 
+        valPatient = input("Enter the Patient name: ")
+        if [valDevice,valPatient]  in Association : 
+            Association.remove([valDevice,valPatient])
+            print("\n",[valDevice,valPatient]," is successefuly de_associated !")
+        else:
+            print("\n You can't deassociate ",[valDevice,valPatient]," because they are not associated!")
+
+    if val == "4" :
+        valFirmware = input("Entrer le nom du Firmware : ") 
+        for i in range (len(Declaring) ):
+                if valFirmware in Declaring[i]:
+                    print(Declaring[i])
+    if val == "5" :
+        break
