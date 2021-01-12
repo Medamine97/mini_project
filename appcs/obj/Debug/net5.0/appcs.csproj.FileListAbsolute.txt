@@ -1,0 +1,16 @@
+C:\Users\benfa\Desktop\gestion\appcs\bin\Debug\net5.0\appcs.exe
+C:\Users\benfa\Desktop\gestion\appcs\bin\Debug\net5.0\appcs.deps.json
+C:\Users\benfa\Desktop\gestion\appcs\bin\Debug\net5.0\appcs.runtimeconfig.json
+C:\Users\benfa\Desktop\gestion\appcs\bin\Debug\net5.0\appcs.runtimeconfig.dev.json
+C:\Users\benfa\Desktop\gestion\appcs\bin\Debug\net5.0\appcs.dll
+C:\Users\benfa\Desktop\gestion\appcs\bin\Debug\net5.0\ref\appcs.dll
+C:\Users\benfa\Desktop\gestion\appcs\bin\Debug\net5.0\appcs.pdb
+C:\Users\benfa\Desktop\gestion\appcs\obj\Debug\net5.0\appcs.csprojAssemblyReference.cache
+C:\Users\benfa\Desktop\gestion\appcs\obj\Debug\net5.0\appcs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\benfa\Desktop\gestion\appcs\obj\Debug\net5.0\appcs.AssemblyInfoInputs.cache
+C:\Users\benfa\Desktop\gestion\appcs\obj\Debug\net5.0\appcs.AssemblyInfo.cs
+C:\Users\benfa\Desktop\gestion\appcs\obj\Debug\net5.0\appcs.csproj.CoreCompileInputs.cache
+C:\Users\benfa\Desktop\gestion\appcs\obj\Debug\net5.0\appcs.dll
+C:\Users\benfa\Desktop\gestion\appcs\obj\Debug\net5.0\ref\appcs.dll
+C:\Users\benfa\Desktop\gestion\appcs\obj\Debug\net5.0\appcs.pdb
+C:\Users\benfa\Desktop\gestion\appcs\obj\Debug\net5.0\appcs.genruntimeconfig.cache
